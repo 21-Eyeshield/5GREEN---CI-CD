@@ -1,0 +1,9 @@
+name: build
+on: push
+
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copier code depuis Github vers Server Ubuntu
+      uses: actions/checkout@v3
